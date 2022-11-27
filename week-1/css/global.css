@@ -8,7 +8,8 @@ is zoals globale variabelen in JS  */
   --color-orange-400: hsl(16, 100%, 41%);
   --color-green: hsl(158, 100%, 26%);
   --color-green-200: hsl(158, 100%, 66%);
-  --color-green-600: hsl(158, 100%, 06%);
+  --color-green-800: hsl(158, 100%, 06%);
+  --color-green-600: hsl(158, 100%, 14%);
 
   --font-family_roboto-slab: "Roboto Slab", serif;
   --font-family_share: "Share", cursive;
@@ -38,6 +39,7 @@ h6 {
 
 h1 {
   font-size: 3.9rem;
+  color: var(--color-green-600);
 }
 
 h2 {
@@ -50,4 +52,29 @@ h3 {
 
 h4 {
   font-size: 1.2rem;
+}
+
+.text-orange {
+  color: var(--color-orange);
+}
+
+.bg-orange {
+  background-color: var(-color-orange);
+}
+
+.container-full {
+  padding: 0 var(--p-4);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 var(--p-4);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
