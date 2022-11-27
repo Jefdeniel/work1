@@ -1,0 +1,53 @@
+/* Dit bekekent dat variabelen die je maakt in CSS ook beschikbaar stelt aan alle andere (stijl)bestanden
+is zoals globale variabelen in JS  */
+
+:root {
+  --color-black: black;
+  --color-orange: hsl(16, 100%, 61%);
+  --color-orange-200: hsl(16, 100%, 81%);
+  --color-orange-400: hsl(16, 100%, 41%);
+  --color-green: hsl(158, 100%, 26%);
+  --color-green-200: hsl(158, 100%, 66%);
+  --color-green-600: hsl(158, 100%, 06%);
+
+  --font-family_roboto-slab: "Roboto Slab", serif;
+  --font-family_share: "Share", cursive;
+
+  --p: 4px;
+  --p-2: calc(2 * var(--p));
+  --p-4: calc(4 * var(--p));
+  --p-6: calc(6 * var(--p));
+  --p-8: calc(8 * var(--p));
+  --p-10: calc(10 * var(--p));
+}
+
+body {
+  font-family: var(--font-family_roboto-slab);
+  line-height: 1.56em;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family_share);
+}
+
+h1 {
+  font-size: 3.9rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
