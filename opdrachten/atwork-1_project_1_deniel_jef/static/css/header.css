@@ -39,3 +39,11 @@
   align-items: center;
   list-style: none;
 }
+
+.logo__img {
+ /* Lijkt op het eerste zicht oke, later mss nog media queries */ m
+}
+
+.nav {
+  word-spacing: 2em;
+}

@@ -1,0 +1,20 @@
+.container-one {
+  display: flex;
+}
+
+.column-big {
+  overflow: hidden;
+}
+
+.bg-orange {
+  background-color: var(--color-orange);
+  color: white;
+}
+
+.readmore {
+  display: flex;
+}
+
+.readmore__p {
+  weight: 500;
+}
