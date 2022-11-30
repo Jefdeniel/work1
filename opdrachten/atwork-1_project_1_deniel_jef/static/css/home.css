@@ -2,13 +2,29 @@
   display: flex;
 }
 
+.intro__p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 .column-big {
   overflow: hidden;
+  padding: 0 var(--p-8);
+}
+
+.column-small {
+  display: grid;
+  overflow: hidden;
+  padding: 0 var(--p-8);
+  justify-content: stretch;
 }
 
 .bg-orange {
   background-color: var(--color-orange);
   color: white;
+  height: auto;
+  vertical-align: bottom;
 }
 
 .readmore {
@@ -16,5 +32,4 @@
 }
 
 .readmore__p {
-  weight: 500;
 }
