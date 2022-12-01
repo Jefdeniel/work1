@@ -59,9 +59,9 @@ h4 {
   color: var(--color-orange);
 }
 
-.bg-orange {
+/* .bg-orange {
   background-color: var(-color-orange);
-}
+} */
 
 .container-full {
   padding: 0 var(--p-4);

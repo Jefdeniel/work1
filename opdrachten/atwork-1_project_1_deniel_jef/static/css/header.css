@@ -41,9 +41,12 @@
 }
 
 .logo__img {
- /* Lijkt op het eerste zicht oke, later mss nog media queries */ m
+  /* Lijkt op het eerste zicht oke, later mss nog media queries, enkel breedte bepalen met rem en hoogte automatisch via browser laten berekenen*/
 }
 
 .nav {
   word-spacing: 2em;
+}
+
+.nav-link {
 }
