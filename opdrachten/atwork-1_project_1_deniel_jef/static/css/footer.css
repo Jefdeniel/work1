@@ -1,25 +1,32 @@
 .container__footer {
-  box-sizing: border-box;
+  background-color: var(--color-green-600);
 }
 
-footer {
-  height: auto;
-  padding: 1px 15px 1px 20px;
-  clear: both;
-}
-#footer_links {
-  float: left;
-}
-#values {
-  float: none;
-  padding: 0 600px 0 0;
-  text-align: justify;
-}
-#contacts {
-  float: right;
+.footer__list {
+  flex-direction: row;
+  list-style: none;
 }
 
-#copyright {
-  float: none;
-  text-align: center;
+.footer-img {
+}
+
+.icon-arrow-right {
+  display: flex;
+}
+
+.icon-arrow-right > a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-arrow-right > img {
+  height: 18px;
+}
+
+.footer__list-item {
+}
+
+.ft-title {
+  color: var(--color-green-400);
+  weight: 300;
 }
