@@ -5,6 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./atwork-1_project_1_deniel_jef/static/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./atwork-1_project_1_deniel_jef/static/css/fonts.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./atwork-1_project_1_deniel_jef/static/css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./atwork-1_project_1_deniel_jef/static/css/header.css"
+      <link
+      rel="stylesheet"
+      href="./atwork-1_project_1_deniel_jef/static/css/contact.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="row">
+        <form action="" method="get" id="fromContact">
+          <fieldset>
+            <legend>Reden om contact te zoeken</legend>
+            <div>
+              <input
+                type="radio"
+                id="particulier"
+                name="type"
+                value="particulier"
+              />
+              <label for="">Particulier</label>
+            </div>
+            <div>
+              <input type="radio" id="bedrijf" name="type" value="bedrijf" />
+              <label for="">Bedrijf/instelling</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="openbaar_bestuur"
+                name="type"
+                value="openbaar_bestuur"
+              />
+              <label for="">Openbaar bestuur</label>
+            </div>
+            <div>
+              <label for="provincie"></label>
+              <select name="provinvie" id="provincie">
+                <option value="0">West-Vlaanderen</option>
+                <option value="1">Oost-Vlaanderen</option>
+                <option value="2">Antwerpen</option>
+                <option value="3">Limburg</option>
+                <option value="4">Vlaams-Brabant</option>
+                <option value="5">Brussel</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend class="hidden">Persoonlijke informatie</legend>
+          </fieldset>
+          <fieldset>
+            <legend>Bericht</legend>
+          </fieldset>
+          <button type="submit">Verzenden</button>
+        </form>
+      </div>
+    </div>
+    <script src="./atwork-1_project_1_deniel_jef/static/js/main.js"></script>
+  </body>
 </html>

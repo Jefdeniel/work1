@@ -87,3 +87,7 @@ h4 {
   color: white;
   padding: 0 var(--p-4);
 }
+
+.hidden {
+  display: none;
+}
