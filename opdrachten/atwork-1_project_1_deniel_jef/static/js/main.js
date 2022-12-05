@@ -11,24 +11,24 @@
       this.$referencesList.innerHTML = this.getHTMLForReferences(references);
       this.$fromContact = document.querySelector("#fromContact");
     },
-    registerListener() {
-      console.log("3. Register Listeners");
-      this.$fromContact.addEventListener("submit", (ev) => {
-        ev.preventDefault();
+    // registerListener() {
+    //   console.log("3. Register Listeners");
+    //   this.$fromContact.addEventListener("submit", (ev) => {
+    //     ev.preventDefault();
 
-        const $elements = ev.currentTarget.elements;
+    //     const $elements = ev.currentTarget.elements;
 
-        console.log(ev.currentTarget.elements.type);
+    //     console.log(ev.currentTarget.elements.type);
 
-        const data = {
-          type: elements.type.value;
-          provincie: $elements.provincie.value;
-          name: $elements.txtName.value;
+    //     const data = {
+    //       type: elements.type.value;
+    //       provincie: $elements.provincie.value;
+    //       name: $elements.txtName.value;
 
-          // const dataAsJSONStr = json.stringify(data);
-        }
-        return false;
-      });
+    //       // const dataAsJSONStr = json.stringify(data);
+    //     }
+    //     return false;
+    //   });
     },
     getHTMLForReferences(references) {
       return references
