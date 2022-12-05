@@ -23,6 +23,7 @@
         const data = {
           type: elements.type.value;
           provincie: $elements.provincie.value;
+          name: $elements.txtName.value;
 
           // const dataAsJSONStr = json.stringify(data);
         }
