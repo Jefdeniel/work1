@@ -1,0 +1,25 @@
+.container__footer {
+  box-sizing: border-box;
+}
+
+footer {
+  height: auto;
+  padding: 1px 15px 1px 20px;
+  clear: both;
+}
+#footer_links {
+  float: left;
+}
+#values {
+  float: none;
+  padding: 0 600px 0 0;
+  text-align: justify;
+}
+#contacts {
+  float: right;
+}
+
+#copyright {
+  float: none;
+  text-align: center;
+}

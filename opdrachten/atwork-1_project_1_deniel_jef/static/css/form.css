@@ -5,6 +5,14 @@
   padding: 0 250px;
 }
 
+.form__intro {
+  width: 60%;
+}
+
+.form__intro > p {
+  margin: 30px 0;
+}
+
 form {
   line-height: 2.5em;
 }
