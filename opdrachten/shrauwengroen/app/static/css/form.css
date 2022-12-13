@@ -1,0 +1,63 @@
+.container__green {
+  margin: 0 auto;
+  padding: 0 var(--p-4);
+  background-color: #d9ede5;
+  padding: 0 250px;
+}
+
+.form__intro {
+  width: 60%;
+}
+
+.form__intro > p {
+  margin: 30px 0;
+}
+
+form {
+  line-height: 2.5em;
+}
+
+legend {
+  color: var(--color-green-600);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid #;
+  border: none;
+}
+
+fieldset > legend {
+  color: var(--color-green-600);
+}
+
+input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid;
+}
+
+.radio,
+.organisation,
+.familyName,
+.firstName,
+.phoneNumber,
+.email {
+  width: 50%;
+  margin: 25px 0;
+}
+
+.message,
+.provincie,
+.checkbox_privacy {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.hidden {
+  display: none;
+}
