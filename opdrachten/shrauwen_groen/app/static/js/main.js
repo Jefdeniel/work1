@@ -29,13 +29,13 @@
     //     }
     //     return false;
     //   });
-    },
+    // },
     getHTMLForReferences(references) {
       return references
         .map((ref) => {
           return `
         <div class="references">
-        <h3 class="reference__title">${ref.title}</h3> 
+        <h2 class="reference__title">${ref.title}</h2> 
         <picture class="reference__picture">
           <img src="${ref.pictureURL}">
           </picture>

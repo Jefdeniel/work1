@@ -86,5 +86,7 @@ h4 {
   background-color: var(--color-orange);
   border: none;
   color: white;
-  padding: 0 var(--p-4);
+  padding: 0 var(--p-8);
+  height: 50px;
+  font-weight: 500;
 }
