@@ -35,6 +35,12 @@ fieldset > legend {
   color: var(--color-green-600);
 }
 
+@media screen and (max-width: 600px) {
+  .fielset {
+    display: inline;
+  }
+}
+
 input {
   border: none;
   background: none;
