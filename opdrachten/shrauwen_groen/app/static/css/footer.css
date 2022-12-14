@@ -1,5 +1,7 @@
 .container__footer {
   background-color: var(--color-green-600);
+  height: 80vh;
+  display: grid;
 }
 
 .footer__list {
@@ -29,4 +31,8 @@
 .ft-title {
   color: var(--color-green-400);
   weight: 300;
+}
+
+.footer__p-bottom {
+  color: gray;
 }
