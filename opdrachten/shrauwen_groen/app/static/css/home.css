@@ -33,3 +33,30 @@
 
 .readmore__p {
 }
+
+.media-scroller {
+  display: grid;
+  gap: 2rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 28%;
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.media-element {
+  display: grid;
+  /* grid-template-columns: min-content; */
+  gap: 2rem;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  width: 100%;
+}
+
+.media-element > img {
+  inline-size: 100%;
+  aspect-ratio: 9 / 11;
+  object-fit: cover;
+}

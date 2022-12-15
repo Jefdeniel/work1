@@ -29,6 +29,7 @@
   flex-wrap: wrap;
   align-items: center;
   list-style: none;
+  width: auto;
 }
 
 .contact__email,
@@ -40,6 +41,12 @@
   list-style: none;
 }
 
+.contact__email,
+.contact__tel > a {
+  margin-right: var(--p-4);
+  text-decoration: underline;
+  color: var(--color-black);
+}
 .logo__img {
   /* Lijkt op het eerste zicht oke, later mss nog media queries, enkel breedte bepalen met rem en hoogte automatisch via browser laten berekenen*/
 }
@@ -49,4 +56,9 @@
 }
 
 .nav-link {
+  text-decoration: none;
+  font-family: var(--font-family_roboto-slab);
+  line-height: 1.56em;
+  font-weight: 400;
+  color: var(--color-green-800);
 }

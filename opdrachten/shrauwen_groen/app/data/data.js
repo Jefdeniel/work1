@@ -58,5 +58,3 @@ const services = [
     property: "onderhoud",
   },
 ];
-
-console.log(data);
