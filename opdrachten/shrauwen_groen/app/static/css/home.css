@@ -34,6 +34,12 @@
 .readmore__p {
 }
 
+/* Schrauwen in beeld */
+
+.container-header {
+  padding: 2rem;
+}
+
 .media-scroller {
   display: grid;
   gap: 2rem;
@@ -46,7 +52,6 @@
 
 .media-element {
   display: grid;
-  /* grid-template-columns: min-content; */
   gap: 2rem;
   padding: 2rem;
   flex-direction: column;
@@ -59,4 +64,34 @@
   inline-size: 100%;
   aspect-ratio: 9 / 11;
   object-fit: cover;
+}
+
+.media-element > p {
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--color-green-600);
+  border-bottom: solid 1px var(--color-green-600);
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .media-scroller {
+    height: 90vh;
+    grid-auto-columns: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .media-element {
+    width: 600px;
+    display: flex;
+  }
+}
+
+.container-green {
+  background-color: var(--color-green-bg);
+}
+
+.contact-box {
+  background-color: var(--color-green-400);
 }

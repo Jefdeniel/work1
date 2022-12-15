@@ -11,6 +11,7 @@ is zoals globale variabelen in JS  */
   --color-green-400: hsl(158, 100%, 36%);
   --color-green-800: hsl(158, 100%, 06%);
   --color-green-600: hsl(158, 100%, 14%);
+  --color-green-bg: rgb(217, 237, 229);
 
   --font-family_roboto-slab: "Roboto Slab", serif;
   --font-family_share: "Share", cursive;
@@ -40,12 +41,13 @@ a {
 }
 
 h1 {
-  font-size: 3.9rem;
+  font-size: 4.5rem;
   color: var(--color-green-600);
 }
 
 h2 {
-  font-size: 2.3rem;
+  font-size: 3.5rem;
+  color: var(--color-green-600);
 }
 
 h3 {
@@ -66,12 +68,19 @@ h4 {
 
 .container-full {
   padding: 0 var(--p-4);
-  margin: 25px 0;
+  margin: 75px 0;
 }
 
 .container {
   margin: 0 auto;
   padding: 0 var(--p-4);
+}
+
+.container-green {
+  background-color: var(--color-green-bg);
+  padding: 0 var(--p-8);
+  height: 90vh;
+  vertical-align: middle;
 }
 
 .row {
@@ -80,6 +89,19 @@ h4 {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 var(--p-10);
+}
+
+.row-12 {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+.column-6 {
+  width: 50vw;
+  justify-content: space-between;
+  vertical-align: middle;
+  padding: 75px 0 var(--p-10);
+  margin
 }
 
 .btn-orange {
