@@ -1,12 +1,14 @@
 .container__footer {
   background-color: var(--color-green-600);
-  height: 80vh;
+
   display: grid;
 }
 
 .footer__list {
   flex-direction: row;
   list-style: none;
+  line-height: 2.5;
+  margin: auto;
 }
 
 .footer-img {
@@ -14,6 +16,14 @@
 
 .icon-arrow-right {
   display: flex;
+}
+
+.icon-arrow-right {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  list-style: none;
 }
 
 .icon-arrow-right > a {
