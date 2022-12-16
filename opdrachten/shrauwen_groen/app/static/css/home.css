@@ -95,3 +95,7 @@
 .contact-box {
   background-color: var(--color-green-400);
 }
+
+.column-6-werkwijze {
+  padding-right: 200px;
+}
