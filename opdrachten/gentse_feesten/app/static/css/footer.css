@@ -1,0 +1,15 @@
+.bg-red {
+  background-color: var(--color-red);
+}
+
+.icon__footer {
+  max-width: 100px;
+}
+
+.ul_partners {
+  list-style-type: none;
+}
+
+li {
+  margin: 0 10px;
+}
