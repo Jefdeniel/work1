@@ -49,7 +49,3 @@ h3 {
   color: var(--color-black);
   text-transform: capitalize;
 }
-
-.bg-red {
-  background-color: var(--color-red);
-}
