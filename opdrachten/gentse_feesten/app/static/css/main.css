@@ -2,43 +2,55 @@
   --color-black: black;
   --color-white: white;
   --color-red: #e83c3c;
+}
 
-  --font-family_stolzl: "stolzl", sans-serif;
-  --font-family-stolzl_display: "stolzl_display", sans-serif;
+@font-face {
+  font-family: var(--font-family-stolzl-bold);
+  src: url(../fonts/stolzl/Stolzl-Bold.ttf);
+}
+
+@font-face {
+  font-family: var(--font-family-stolzl-medium);
+  src: url(../fonts/stolzl/Stolzl-Medium.ttf);
+}
+
+@font-face {
+  font-family: var(--font-family-stolzl-regular);
+  src: url(../fonts/stolzl/Stolzl-Regular.ttf);
+}
+@font-face {
+  font-family: var(--font-family-stolzl-display-bold);
+  src: url(../fonts/stolzl-display/Stolzl-Display-Bold.otf);
 }
 
 body {
-  font-family: var(--font-family_stolzl);
+  font-family: var(--font-family-stolzl-display-bold);
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-white);
   background-color: var(--color-black);
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-stolzl_display);
+  font-family: var(--font-family-stolzl-display-bold);
   font-weight: 400;
   line-height: 1.2;
 }
-
 h1 {
   font-size: 2.5rem;
   font-weight: 900;
   background-color: var(--color-black);
 }
-
 h2 {
   font-size: 4rem;
   font-weight: 600;
   color: var(--color-black);
   text-transform: capitalize;
 }
-
 .h2-red-bg {
   background-color: var(--color-red);
 }
@@ -48,4 +60,20 @@ h3 {
   font-weight: 600;
   color: var(--color-black);
   text-transform: capitalize;
+}
+
+p {
+  font-family: var(--font-family-stolzl-display-bold);
+}
+
+.p-md-black {
+  color: var(--color-black);
+  font-weight: 900;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+.p-lg-black {
+  color: var(--color-black);
+  font-weight: 800;
+  font-size: 2.5rem;
 }

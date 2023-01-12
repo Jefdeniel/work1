@@ -13,3 +13,9 @@
 li {
   margin: 0 10px;
 }
+
+.socials__footer {
+  border: 1px solid var(--color-black);
+  border-radius: 25px;
+  margin: 0 5px;
+}
